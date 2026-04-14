@@ -219,7 +219,6 @@ namespace SimplexMethodDual
 
             Log("U = (" + string.Join("; ", U.Select(v => $"{v:F2}")) + ")");
         }
-
         static void SolveLPPMenu(bool isMixed)
         {
             Console.Write("Введіть кількість змінних (n): ");
